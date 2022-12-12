@@ -49,6 +49,14 @@ color: #007DD0;
     padding: 0.5rem;
   }
 
+  .imagens:hover {
+    display: inline-block;
+    padding: 0.5rem;
+    width: 275px;
+    height: 275px;
+    transition: .7s ease all;
+  }
+
   #sectionFotosOne {
     display: flex;
     align-items: center;
@@ -68,6 +76,14 @@ color: #007DD0;
     color: white;
   }
 
+  .textoLaranja:hover {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.3rem;
+    color: white;
+    transition: .7s ease all;
+    cursor: pointer;
+  }
+
   .faleConosco {
     position: relative;
     font-family: "Montserrat", sans-serif;
@@ -75,6 +91,17 @@ color: #007DD0;
     font-size: 1.5rem;
     color: white;
     top: 2rem;
+  }
+
+  .faleConosco:hover {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1.7rem;
+    color: white;
+    top: 2rem;
+    transition: .7s ease all;
+    cursor: pointer;
   }
 
   .textosLaranja {
@@ -106,11 +133,31 @@ color: #007DD0;
     left: 4rem;*/
   }
 
-  .liFooter {
+  .liFooter, .liFooter1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-right: 1.5rem;
+  }
+
+  .liFooter:hover {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 1.5rem;
+    width: 30px;
+    cursor: pointer;
+    transition: .7s ease all;
+  }
+
+  .liFooter1:hover {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 1.5rem;
+    width: 15px;
+    cursor: pointer;
+    transition: .7s ease all;
   }
 
   footer {
@@ -206,6 +253,16 @@ width: 80%;
 height: 40%;
   }
 
+  .imagens:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 40%;
+      }
+
   #sectionFotosOne > .imagens {
 display: flex;
 justify-content: center;
@@ -222,7 +279,7 @@ flex-wrap: wrap;
   top: 15rem;
   left: 1rem;
 }
-  .textoLaranja {
+  .textoLaranja, .textoLaranja:hover {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
     color: white;
@@ -234,7 +291,7 @@ flex-wrap: wrap;
     z-index: 2;
   }
 
-  .faleConosco {
+  .faleConosco, .faleConosco:hover {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: 0.7rem;
@@ -306,6 +363,34 @@ flex-wrap: wrap;
   align-items: center;
   width: 25%;
   margin: 0.1rem;
+  width: 25px;
+}
+
+.liFooter1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  margin: 0.1rem;
+  width: 15px;
+}
+
+.liFooter:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  margin: 0.1rem;
+  width: 25px;
+}
+
+.liFooter1:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  margin: 0.1rem;
+  width: 15px;
 }
 
   }
