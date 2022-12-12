@@ -67,6 +67,7 @@ transform:scale(1);
     height: 275px;
     /*transition: .7s ease all;*/
     transform:scale(1);
+    cursor: pointer;
   }
 
   #sectionFotosOne {
